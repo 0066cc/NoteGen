@@ -66,10 +66,7 @@ cat $tmpFinalFormat >> $tmp
 pandoc $tmp -t latex -o ${outFile} --highlight-style zenburn -V colorlinks -V urlcolor=NavyBlue -V toccolor=Black -N -f markdown-latex_macros --variable=fontfamily:helvet
 
 # Clean up
-rm $tmp
-rm $tmpOut
-rm $tmpFormat
-rm $tmpFinalFormat
+rm $tmp $tmpOut $tmpFormat $tmpFinalFormat
 # Done!
 echo "! PDF ready for: $1"
 exit
