@@ -1,5 +1,5 @@
 # NoteGen
-A small script for generator LaTeX PDFs from Markdown using Pandoc metadata.
+A small script for generating LaTeX PDFs from Markdown using Pandoc metadata.
 ![Converting Markdown files to LaTeX PDFs](assets/Display.png)
 
 The script automatically fixes formatting errors that may produce incorrect documents by restructuring header spacing, removing repeated header text, trimming leading white-space removal, among other features resulting in consistently high-quality output. All without editing the original file.
