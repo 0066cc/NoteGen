@@ -9,3 +9,9 @@ Due to some commands not supporting rewriting in-place, temporary files are used
 ## Requirements:
 - Pandoc
 - Some form of LaTeX installation.
+## Usage
+> Ensure that `noteGen.sh` and `metaData.md` are located within the same directory as each other.
+```
+bash noteGen.sh FILENAME
+```
+Your converted file will be automatically created in same directory as the input file.
